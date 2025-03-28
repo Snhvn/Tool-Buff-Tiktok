@@ -42,7 +42,7 @@ read tenthumuc
 mkdir $tenthumuc
 echo "Đã tạo xong thư mục là $tenthumuc"
 echo " Đang tải file "
-wget -O /$tenthumuc/ttp-tool.py https://download943.mediafire.com/2zg2no7r3jogO66mYs5an3dS06vDtZzRdssPHe7XkCro7RTrVDTuim9LDA1vCWO2Big2JqQdaljC6oBBGppYNe6fJdT8Y6vdkgHa58D1xLRm8Uc-DtEHcejxGbq--Ey62cleqYdjOz8y6ADPu4cSrNv3aZwmmBBuVWQhb8bEZQ/13m3rn4zw41k52b/zefoy_v2.py
+wget https://github.com/Snhvn/Tool-Buff-Tiktok/raw/refs/heads/main/ttp-tool.py
 echo "Đã tải xong file tên file là ttp-tool.py được lưu vào thư mục /sdcard/$tenthumuc"
 clear
 echo "______________________________________                       
