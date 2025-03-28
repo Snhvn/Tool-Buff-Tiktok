@@ -31,7 +31,8 @@ echo "_______Youtube: https://youtube.com/@snipavn205_______"
 echo "_______Discord: https://dsc.gg/servertipacvn_______"
 echo "______________________________________"
 echo "Bạn muốn chọn tool nào?"
-echo "1. Tool TTp-Tool : nhập ttp-tool vào trong ô"
+echo "1. Tool TTp-Tool : nhập ttp-tool vào trong ô.
+Youtube: https://youtube.com/@ttptool_1"
 echo "/_  __/_  __/ _ \
        / /   / / / ___/
       /_/   /_/ /_/"
