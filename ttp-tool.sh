@@ -42,8 +42,10 @@ read tenthumuc
 mkdir $tenthumuc
 echo "Đã tạo xong thư mục là $tenthumuc"
 echo " Đang tải file "
+cd $tenthumuc
 wget https://github.com/Snhvn/Tool-Buff-Tiktok/raw/refs/heads/main/ttp-tool.py
-echo "Đã tải xong file tên file là ttp-tool.py được lưu vào thư mục /sdcard/$tenthumuc"
+cd
+echo "Đã tải xong file tên file là ttp-tool.py được lưu vào thư mục $tenthumuc"
 clear
 echo "______________________________________                       
   / /    //\\     //   / /  /----\    /\
@@ -55,4 +57,4 @@ echo "_______Youtube: https://youtube.com/@snipavn205_______"
 echo "_______Discord: https://dsc.gg/servertipacvn_______"
 echo "______________________________________"
 sleep 1
-echo "Đã Setup xong vui lòng khởi động lệnh 'cd /sdcard/$tenthumuc && python ttp-tool.py'"
+echo "Đã Setup xong vui lòng khởi động lệnh 'cd $tenthumuc && python ttp-tool.py'"
