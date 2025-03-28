@@ -15,6 +15,11 @@ echo "Ok Bạn đã chọn đi tiếp"
 sleep 1
 echo "đi Thôi"
 sleep 2
+echo " Đang tải package cho termux "
+pkg update -y && pkg install python -y && apt install openssl -y && pkg install wget -y
+clear
+echo "Đã tải package cho termux"
+sleep 2
 clear
 echo "______________________________________                       
   / /    //\\     //   / /  /----\    /\
@@ -31,5 +36,6 @@ echo "/_  __/_  __/ _ \
        / /   / / / ___/
       /_/   /_/ /_/"
 echo "Hãy nhập tên vào ô phía dưới 👇"
-read tool-name
-wget 
+read toolname
+echo "Bắt đầu setup ttp-tool"
+bash <(curl -Ls https://raw.githubusercontent.com/Snhvn/Tool-Buff-Tiktok/refs/heads/main/$toolname.sh)
