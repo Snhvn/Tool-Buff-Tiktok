@@ -4,6 +4,7 @@ echo " Đang tải package cho termux "
 pkg update -y && pkg install python -y && apt install openssl -y && pkg install wget -y
 echo "Đã tải package cho termux"
 sleep 2
+clear
 echo "______________________________________                       
       / /    //\\     //   / /  /----\    /\
     / /     //  \\   //   / /  /      /  /  \
