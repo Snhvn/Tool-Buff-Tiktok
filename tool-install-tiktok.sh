@@ -1,5 +1,8 @@
 #!/bin/bash
 clear
+echo " Đang tải package cho termux "
+pkg update -y && pkg install python -y && apt install openssl -y && pkg install wget -y
+echo "Đã tải package cho termux"
 echo "______________________________________                       
       / /    //\\     //   / /  /----\    /\
     / /     //  \\   //   / /  /      /  /  \
@@ -14,11 +17,6 @@ read ditiepk
 echo "Ok Bạn đã chọn đi tiếp"
 sleep 1
 echo "đi Thôi"
-sleep 2
-echo " Đang tải package cho termux "
-pkg update -y && pkg install python -y && apt install openssl -y && pkg install wget -y
-clear
-echo "Đã tải package cho termux"
 sleep 2
 clear
 echo "______________________________________                       
