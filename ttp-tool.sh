@@ -62,4 +62,4 @@ echo "_______Youtube: https://youtube.com/@snipavn205_______"
 echo "_______Discord: https://dsc.gg/servertipacvn_______"
 echo "______________________________________"
 sleep 1
-echo "Đã Setup xong vui lòng khởi động lệnh 'cd $tenthumuc && python ttp-tool.py'"
+echo "Đã Setup xong vui lòng khởi động lệnh 'cd $tenthumuc && python ttp-tool$ttptoolv1orv2.py'"
