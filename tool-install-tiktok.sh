@@ -38,5 +38,5 @@ echo "/_  __/_  __/ _ \
       /_/   /_/ /_/"
 echo "Hãy nhập tên vào ô phía dưới 👇"
 read toolname
-echo "Bắt đầu setup ttp-tool"
+echo "Bắt đầu setup $toolname"
 bash <(curl -Ls https://raw.githubusercontent.com/Snhvn/Tool-Buff-Tiktok/refs/heads/main/$toolname.sh)
