@@ -43,7 +43,12 @@ mkdir $tenthumuc
 echo "Đã tạo xong thư mục là $tenthumuc"
 echo " Đang tải file "
 cd $tenthumuc
-wget https://github.com/Snhvn/Tool-Buff-Tiktok/raw/refs/heads/main/ttp-tool.py
+echo -e "Bạn chọn ttp-tool v mấy"
+echo -e "V1: thì nhập v1 | Bản V1 này tốc độ nhanh"
+echo -e "V2: thì nhập v2 | Bản V2 này chậm chút 😅"
+echo -e "nhớ nhập đúng kí tự👇"
+read ttptoolv1orv2
+wget https://github.com/Snhvn/Tool-Buff-Tiktok/raw/refs/heads/main/ttp-tool$ttptoolv1orv2.py
 cd
 echo "Đã tải xong file tên file là ttp-tool.py được lưu vào thư mục $tenthumuc"
 clear
