@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo " Đang tải package cho termux "
-pkg update -y && pkg install python -y && apt install openssl -y && pkg install wget -y
+pkg update -y && pkg install python -y && apt install openssl -y && pkg install wget -y && pip install pycryptodome
 echo "Đã tải package cho termux"
 sleep 2
 clear
